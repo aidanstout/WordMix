@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BE_App.TutorialPage"
+             Title="TutorialPage"
+             BackgroundImageSource="wordbackground.png">
+    <VerticalStackLayout
+        Padding="25"
+        Spacing="50">
+        <Label 
+            Text="Click Start Game to Begin!"
+            FontSize="Medium"
+            Background="#f4ca44"
+            Padding="25,0"
+            TextColor="Black"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label
+            Text="You Will be Told to Find the Correct Spelling of a Word"
+            FontSize="Medium"
+            Background="#f4ca44"
+            Padding="25,0"
+            TextColor="Black"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label
+            Text="You Will Win Points Everytime you Select the Correct Button"
+            FontSize="Medium"
+            Background="#f4ca44"
+            TextColor="Black"
+            Padding="25,0"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button
+            Text="Start Game"
+            Background="#ee6112" 
+            TextColor="Black"
+            FontSize="Small"
+            Clicked="Button_Clicked"
+            WidthRequest="190"
+            HeightRequest="100"/>
+    </VerticalStackLayout>
+</ContentPage>

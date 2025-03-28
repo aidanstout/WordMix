@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BE_App.SettingsPage"
+             Title="Game Settings">
+    
+    <VerticalStackLayout
+        
+        Padding="0,30"
+        Spacing="20">
+        
+        <Label 
+            Text="LEVEL"
+            TextColor="DarkSlateBlue"
+            Background="LightBlue"
+            Padding="10"
+            WidthRequest="60"
+             />
+
+        <RadioButton GroupName="level" Content="1" HorizontalOptions="Center"></RadioButton>
+        <RadioButton GroupName="level" Content="2" HorizontalOptions="Center"></RadioButton>
+        <RadioButton GroupName="level" Content="3" HorizontalOptions="Center"></RadioButton>
+        <RadioButton GroupName="level" Content="4" HorizontalOptions="Center"></RadioButton>
+
+        <Label IsVisible="False"></Label>
+
+        <Label 
+            Text="   lowercase : UPPERCASE"
+            TextColor="DarkSlateBlue"
+            Background="LightBlue"
+            Padding="10"
+            WidthRequest="200"
+            
+            />
+        
+        <Switch Toggled="OnToggled" 
+                WidthRequest="600"
+                HorizontalOptions="EndAndExpand"
+                
+                />
+
+        <Button
+            Background="LightBlue" 
+            TextColor="DarkSlateBlue"
+            Text="PLAY"
+            Clicked="Button_Clicked"
+            Padding="20"
+            WidthRequest="130"
+            
+            
+    
+            />  
+
+    </VerticalStackLayout>
+</ContentPage>

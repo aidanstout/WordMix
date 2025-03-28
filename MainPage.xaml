@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BE_App.MainPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundImageSource="wordmix.png"
+             >
+
+   
+    <VerticalStackLayout
+        Padding="400"
+        >
+            
+            
+        <Button
+            Background="#edeae5" 
+            Text="PLAY"
+            TextColor="DarkSlateBlue"
+            Clicked="Button_Clicked"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            WidthRequest="125"
+            HeightRequest="75"
+            />
+
+            
+            
+         
+
+            
+
+
+    </VerticalStackLayout>
+   
+
+</ContentPage>

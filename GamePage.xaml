@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BE_App.GamePage"
+             BackgroundImageSource="wordbackground.png"
+             >
+    <VerticalStackLayout
+        Padding="15"
+        Spacing="45" >
+        <Label
+            x:Name="score_keeper"
+            Text="Score: 0"
+            TextColor="Black"
+            FontSize="Medium"
+            BackgroundColor="#ee6112"
+            Padding="25,0"
+            VerticalOptions="Start"
+            HorizontalOptions="End"/>
+        <Label
+            Text="Find The Correct Spelling:"
+            TextColor="Black"
+            BackgroundColor="#edeae5"
+            Padding="30,0"
+            TextDecorations="Underline"
+            Style="{StaticResource Headline}"
+            />
+        
+        <Button
+            x:Name="button1"
+            Background="#f4ca44"
+            TextColor="Black"
+            FontSize="Medium"
+            Clicked="Button1_Clicked"
+            HorizontalOptions="Center"/>
+        <Button
+            x:Name="button2"
+            Background="#f4ca44"
+            TextColor="Black"
+            FontSize="Medium"
+            Clicked="Button2_Clicked"
+            HorizontalOptions="Center"/>
+        <Button
+            x:Name="button3"
+            Background="#f4ca44"
+            TextColor="Black"
+            FontSize="Medium"
+            Clicked="Button3_Clicked"
+            HorizontalOptions="Center"/>
+        <Button
+            x:Name="button4"
+            Background="#f4ca44"
+            TextColor="Black"
+            FontSize="Medium"
+            Clicked="Button4_Clicked"
+            HorizontalOptions="Center"/>
+        
+        <Button 
+            BackgroundColor="#ee6112"
+            Text="Hear Word"
+            TextColor="Black"
+            FontSize="Medium"
+            VerticalOptions="End"
+            HorizontalOptions="End"
+            Padding="30,0"
+            Clicked="Button_Clicked"/>
+        
+
+
+    </VerticalStackLayout>
+</ContentPage>
